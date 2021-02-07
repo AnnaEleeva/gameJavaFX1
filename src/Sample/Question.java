@@ -1,12 +1,12 @@
 package Sample;
 
-public class Questions {
+public class Question {
 
     private String question;
     private String[] answers;
-    private int key;
+    private String key;
 
-    public Questions(String question, String[] answers,int key) {
+    public Question(String question, String[] answers, String key) {
         this.question = question;
         this.answers = answers;
         this.key=key;
@@ -16,11 +16,11 @@ public class Questions {
         return this.answers[answers.length-1];
     }*/
 
-    public int getKey() {
+    public String getKey() {
         return key;
     }
 
-    public void setKey(int key) {
+    public void setKey(String key) {
         this.key = key;
     }
 

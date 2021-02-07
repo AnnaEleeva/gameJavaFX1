@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="690.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sample.Form2">
+<AnchorPane prefHeight="690.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sample.Info">
    <children>
       <Text layoutX="421.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Обучение" />
       <Text layoutX="133.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Привет! " />
