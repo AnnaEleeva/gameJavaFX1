@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="960.0" style="-fx-background-color: #f8f9fd;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sample.Skills">
+   <children>
+      <AnchorPane prefHeight="86.0" prefWidth="975.0" style="-fx-background-color: #00939c;">
+         <children>
+            <Text fx:id="levelText" layoutX="464.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Skills">
+               <font>
+                  <Font size="28.0" />
+               </font></Text>
+            <Button fx:id="infoButton" layoutX="871.0" layoutY="25.0" mnemonicParsing="false" text="Инфо" />
+            <Button fx:id="backButton" layoutX="779.0" layoutY="25.0" mnemonicParsing="false" text="Назад" />
+         </children></AnchorPane>
+      <Text fx:id="quston" layoutX="201.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a branch of skills" textAlignment="CENTER" wrappingWidth="614.98876953125">
+         <font>
+            <Font size="40.0" />
+         </font></Text>
+      <ImageView fx:id="smileImg" fitHeight="184.0" fitWidth="205.0" layoutX="731.0" layoutY="464.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/10.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="67.0" layoutX="69.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/3.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="vocabularyButton" layoutX="80.0" layoutY="320.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="215.0" style="-fx-background-color: #df8f46;" text="Vocabulary" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="dialoguesButton" layoutX="674.0" layoutY="320.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="215.0" style="-fx-background-color: #ff798a;" text="Dialogues" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="grammarButton" layoutX="380.0" layoutY="320.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="215.0" style="-fx-background-color: #00939c;" text="Grammar" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

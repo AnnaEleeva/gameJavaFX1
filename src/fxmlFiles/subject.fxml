@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="784.0" prefWidth="1005.0" style="-fx-background-color: #f8f9fd;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sample.Subject">
+   <children>
+      <AnchorPane layoutX="60.0" layoutY="312.0" prefHeight="45.0" prefWidth="341.0" style="-fx-background-color: #00939c;">
+         <children>
+            <Text layoutX="124.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Languages" wrappingWidth="121.921875">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="86.0" prefWidth="1005.0" style="-fx-background-color: #00939c;">
+         <children>
+            <Text fx:id="levelText" layoutX="464.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subject">
+               <font>
+                  <Font size="28.0" />
+               </font></Text>
+            <Button fx:id="infoButton" layoutX="899.0" layoutY="25.0" mnemonicParsing="false" text="Инфо" />
+         </children></AnchorPane>
+      <Text fx:id="quston" layoutX="263.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a branch of knowladge" wrappingWidth="614.98876953125">
+         <font>
+            <Font size="40.0" />
+         </font></Text>
+      <ImageView fx:id="smileImg" fitHeight="184.0" fitWidth="205.0" layoutX="740.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/10.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="enButton" layoutX="60.0" layoutY="370.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="168.0" style="-fx-background-color: #e2ceb3;" text="English">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="deButton" layoutX="239.0" layoutY="370.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="162.0" style="-fx-background-color: #e2ceb3;" text="German">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="75.0" fitWidth="67.0" layoutX="69.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
